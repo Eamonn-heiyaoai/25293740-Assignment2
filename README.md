@@ -68,23 +68,23 @@ Technologies used:
 | adminer (optional) | Database viewer                  | 9090 |
 
 ┌────────────────────────────┐
-│   React Frontend (3000)                       │
-│   communicates via HTTP                     │
+│   React Frontend (3000)    │
+│   communicates via HTTP    │
 └──────────────┬─────────────┘
-                                │
-                                ▼
-┌──────────────────────────┐
-│ Student Profile (5001)                      │
-│ Flask + Postgres                              │
-│ Handles students & records             │
-└────────────┬─────────────┘
-                           │
-     ┌─────────┴───────────┐
-     ▼                                            ▼
+               │
+               ▼
+┌───────────────────────────┐
+│ Student Profile (5001)    │
+│ Flask + Postgres          │
+│Handles students & records │
+└─────────────┬─────────────┘
+              │
+     ┌────────┴─────────┐
+     ▼                  ▼
 ┌──────────────┐   ┌─────────────────┐
-│Course Service        │   │Feedback Service          │
-│(5002, memory)       │   │(5003, REST API)           │
-│Lists courses           │   │Collects feedback          │
+│Course Service│   │Feedback Service │
+│(5002, memory)│   │(5003, REST API) │
+│Lists courses │   │Collects feedback│
 └──────────────┘   └─────────────────┘
 
 
