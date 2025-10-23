@@ -1,0 +1,4 @@
+flask
+requests
+flask-restx
+flask-cors
