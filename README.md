@@ -74,7 +74,9 @@ Technologies used:
 │   communicates via HTTP    │
 
 └──────────────┬─────────────┘
+               
                │
+               
                ▼
                
 ┌───────────────────────────┐
@@ -86,9 +88,13 @@ Technologies used:
 │Handles students & records │
 
 └─────────────┬─────────────┘
+
               │
+              
      ┌────────┴─────────┐
+     
      ▼                  ▼
+     
 ┌──────────────┐   ┌─────────────────┐
 
 │Course Service│   │Feedback Service │
