@@ -48,19 +48,33 @@ microservices-assignment/
 │   ├── init.sql
 
 │   └── requirements.txt
+
 ├── course-catalogue/
+
 │   ├── app.py
+
 │   ├── Dockerfile
+
 │   └── requirements.txt
+
 ├── feedback/
+
 │   ├── app.py
+
 │   ├── Dockerfile
+
 │   └── requirements.txt
+
 ├── .env.example
+
 ├── .gitignore
+
 ├── docker-compose.yml
+
 ├── LICENSE
+
 └── README.md
+
 
 Technologies used:
 - Python + Flask (microservice framework)
