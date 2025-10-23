@@ -68,9 +68,13 @@ Technologies used:
 | adminer (optional) | Database viewer                  | 9090 |
 
 ┌────────────────────────────┐
+
 │   React Frontend (3000)    │
+
 │   communicates via HTTP    │
+
 └──────────────┬─────────────┘
+
                │
                ▼
 ┌───────────────────────────┐
