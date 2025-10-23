@@ -22,18 +22,31 @@ In this extended version, two additional Flask-based microservices were created 
 Each runs independently in its own Docker container and communicates with others via REST APIs over the Docker network.
 
 microservices-assignment/
+
 ├── docker-compose.yml
+
 ├── README.md
+
 ├── frontend/
+
 │   ├── Public/
+
 │   ├── src/
+
 │   ├── Dockerfile
+
 │   ├── package.json
+
 │   └── vite-config.js
+
 ├── student-profile/
+
 │   ├── app.py
+
 │   ├── Dockerfile
+
 │   ├── init.sql
+
 │   └── requirements.txt
 ├── course-catalogue/
 │   ├── app.py
