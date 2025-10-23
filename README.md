@@ -97,11 +97,11 @@ Technologies used:
      
 ┌──────────────┐   ┌─────────────────┐
 
-│Course Service│   │Feedback Service │
+│Course Service│           │Feedback Service │
 
-│(5002, memory)│   │(5003, REST API) │
+│(5002, memory)│           │(5003, REST API) │
 
-│Lists courses │   │Collects feedback│
+│Lists courses │           │Collects feedback│
 
 └──────────────┘   └─────────────────┘
 
