@@ -74,22 +74,31 @@ Technologies used:
 │   communicates via HTTP    │
 
 └──────────────┬─────────────┘
-
                │
                ▼
+               
 ┌───────────────────────────┐
+
 │ Student Profile (5001)    │
+
 │ Flask + Postgres          │
+
 │Handles students & records │
+
 └─────────────┬─────────────┘
               │
      ┌────────┴─────────┐
      ▼                  ▼
 ┌──────────────┐   ┌─────────────────┐
+
 │Course Service│   │Feedback Service │
+
 │(5002, memory)│   │(5003, REST API) │
+
 │Lists courses │   │Collects feedback│
+
 └──────────────┘   └─────────────────┘
+
 
 
 Your task is to build additional microservices, connect them using Docker Compose, and demonstrate a small, functional microservices architecture with clear service boundaries.
